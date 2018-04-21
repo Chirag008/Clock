@@ -10,7 +10,4 @@ public class Timer {
 	public String getCurrentTime(DateFormat df){
 		return df.format(new Date());
 	}
-	public void startTimer(int timeOutInSeconds){
-		
-	}
 }
