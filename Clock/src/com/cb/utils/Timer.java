@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class Timer {
 	public String getCurrentTime(){
-		return new Date().toString();
+		return new Date().toString().trim();
 	}
 	public String getCurrentTime(DateFormat df){
 		return df.format(new Date());
