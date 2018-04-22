@@ -6,6 +6,7 @@ public class GUI extends JFrame{
 	public static void main(){
 		
 	}
+	
 	public GUI(){
 	}
 }
