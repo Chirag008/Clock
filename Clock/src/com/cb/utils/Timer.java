@@ -11,6 +11,6 @@ public class Timer {
 		return df.format(new Date());
 	}
 	public void sTimer(){
-		
+		System.out.println("Started Stopwatch");
 	}
 }
